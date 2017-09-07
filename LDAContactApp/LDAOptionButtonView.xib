@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LDAOptionButtonView" customModule="LDAContactApp" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="CdE-eS-aDd" id="hMf-SZ-Ptf"/>
+                <outlet property="titleLabel" destination="0oz-1M-oRD" id="ZUd-M2-hck"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0oz-1M-oRD">
+                    <rect key="frame" x="0.0" y="533.5" width="375" height="133.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CdE-eS-aDd">
+                    <rect key="frame" x="-80" y="0.0" width="534" height="533.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="CdE-eS-aDd" secondAttribute="height" multiplier="1:1" id="bog-OX-K74"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="0oz-1M-oRD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4jF-VB-q2D"/>
+                <constraint firstItem="CdE-eS-aDd" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="PTN-7n-uFc"/>
+                <constraint firstItem="CdE-eS-aDd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kOe-RO-63O"/>
+                <constraint firstAttribute="trailing" secondItem="0oz-1M-oRD" secondAttribute="trailing" id="pJH-kV-rnp"/>
+                <constraint firstItem="0oz-1M-oRD" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.2" id="qiW-sE-8Q4"/>
+                <constraint firstAttribute="bottom" secondItem="0oz-1M-oRD" secondAttribute="bottom" id="rf5-SO-uJK"/>
+                <constraint firstItem="CdE-eS-aDd" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.8" id="slF-mM-nlK"/>
+            </constraints>
+            <point key="canvasLocation" x="89.5" y="50.5"/>
+        </view>
+    </objects>
+</document>
