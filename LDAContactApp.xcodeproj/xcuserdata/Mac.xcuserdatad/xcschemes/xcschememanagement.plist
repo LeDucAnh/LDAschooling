@@ -4,15 +4,88 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>LDACAContactAppSiri.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
+		<key>LDACAContactAppSiriUI.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>31</integer>
+		</dict>
 		<key>LDAContactApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>LDAContactAppSiri.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>28</integer>
+		</dict>
+		<key>LDAContactAppSiriUI.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>29</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0406D6D11EE9835400C8F256</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>044055641E9493A400002BF0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0497EA761EE72CC600C97C64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0497EA7F1EE72CC600C97C64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04D3B0111EE9917D0078FE62</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04D3B01A1EE9917D0078FE62</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04DB91191EE99BA300B806D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04DB91221EE99BA400B806D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04DB91831EE9AEBB00B806D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04DB918C1EE9AEBB00B806D4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
